@@ -1,0 +1,23 @@
+{
+  "name": "wecli",
+  "version": "1.0.0",
+  "description": "帮助创建Vue、React模板，提高开发效率",
+  "main": "index.js",
+  "bin": {
+    "wecli": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Vue",
+    "React",
+    "cli"
+  ],
+  "author": "azin",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.3.0",
+    "download-git-repo": "^3.0.2"
+  }
+}
